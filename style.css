@@ -430,3 +430,82 @@ footer {
 footer p {
   text-align: center;
 }
+
+    .logo img {
+        max-width: 200px; /* Adjust the width as needed */
+        max-height: 100px; /* Adjust the height as needed */
+        background-color: transparent; /* Make the background transparent */
+    }
+
+  /* Light mode styles */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Dark mode toggle styles */
+.dark-mode-toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.dark-mode-toggle input[type="checkbox"] {
+  display: none;
+}
+
+.toggle {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: background-color 0.3s;
+}
+
+.toggle:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+#dark-mode-checkbox:checked + .toggle {
+  background-color: #2196F3;
+}
+
+#dark-mode-checkbox:checked + .toggle:before {
+  transform: translateX(26px);
+}
+
+#dark-mode-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+#dark-mode-checkbox:checked + .toggle:before {
+  transform: translateX(26px);
+}
+
+#dark-mode-checkbox:checked ~ #dark-mode-text {
+  color: #2196F3;
+}
