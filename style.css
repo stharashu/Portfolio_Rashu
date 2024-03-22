@@ -213,6 +213,13 @@ section {
   height: 2rem;
 }
 
+.logo-skill{
+  height:4rem;
+  background: transparent;
+}
+
+
+
 /* BUTTONS */
 
 .btn-container {

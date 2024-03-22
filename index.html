@@ -16,16 +16,11 @@
     <div class="logo">Rashu Shrestha</div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>          
-          <li><a href="#skills">Skills</a></li>  
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <div id="dark-mode-toggle" class="dark-mode-toggle">
-          <input type="checkbox" id="dark-mode-checkbox">
-          <label for="dark-mode-checkbox" class="toggle"></label>
-          <span id="dark-mode-text">Dark Mode</span>
-        </div>
+        
         
       </div>
     </nav>
@@ -42,7 +37,6 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -90,14 +84,23 @@
       <div class="section-container">
         <div class="about-details-container">
           <div class="about-containers">
+            <div class="text-container">
+              <p>
+                As a motivated and enthusiastic computer science student, 
+                I have gained a solid foundation in programming, software development, and other IT concepts during my academic career. I enjoy a challenge, and I'm always up for taking on new ones to expand my knowledge and proficiency in the field.
+                I am a proactive learner and am thrilled about the opportunities that an IT career holds, and can't wait to start this journey of constant learning and development.
+              </p>
+            </div>
             <div class="details-container">
               <img
                 src="./assets/experience.png"
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <h3>Research</h3>
+              <p><b>Undergraduate Research Student | Fathers Locke and Stiller Research Awards (LSRA)-
+                Cycle 5, St. Xavier's College (2022-2023)
+                </b></p>
             </div>
             <div class="details-container">
               <img
@@ -106,19 +109,10 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc.CSIT <br />M.Sc. Masters Degree</p>
+              <p><b>Undergraduate</b> <br /> B.Sc.CSIT <br /> St.Xavier's College</p>
             </div>
           </div>
-          <div class="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
-            </p>
-          </div>
+          
         </div>
       </div>
       <img
@@ -130,35 +124,32 @@
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title"></h2>
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
+                  src="assets\html.png"
+                  alt="html"
+                  class="logo-skill"
                 />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
+                  
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
+                  src="assets\css.jfif"
+                  alt="css"
+                  class="logo-skill"
                 />
-                <div>
+                <!-- <div>
                   <h3>CSS</h3>
                   <p>Experienced</p>
-                </div>
+                </div> -->
               </article>
-              <article>
+              <!-- <article>
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
@@ -168,19 +159,64 @@
                   <h3>SASS</h3>
                   <p>Intermediate</p>
                 </div>
+              </article> -->
+              <article>
+                <img
+                  src="assets\js.png"
+                  alt="JS"
+                  class="logo-skill"
+                />
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
+                  src="assets\git.png"
+                  alt="git"
+                  class="logo-skill"
                 />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
               </article>
               <article>
+                <img
+                  src="assets\linux.jpg"
+                  alt="linux"
+                  class="logo-skill"
+                />
+              </article>
+              <article>
+                <img
+                  src="assets\docker.png"
+                  alt="docker"
+                  class="logo-skill"
+                />
+              </article>
+              <article>
+                <img
+                  src="assets\aws.jfif"
+                  alt="aws"
+                  class="logo-skill"
+                />
+              </article>
+              <article>
+                <img
+                  src="assets\oracle.png"
+                  alt="oracle"
+                  class="logo-skill"
+                />
+              </article>
+              <article>
+                <img
+                  src="assets\sql.png"
+                  alt="sql"
+                  class="logo-skill"
+                />
+              </article>
+              <article>
+                <img
+                  src="assets\python.png"
+                  alt="python"
+                  class="logo-skill"
+                />
+              </article>
+              <!-- <article>
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
@@ -201,11 +237,11 @@
                   <h3>Material UI</h3>
                   <p>Intermediate</p>
                 </div>
-              </article>
+              </article> -->
             </div>
           </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+          <!-- <div class="details-container">
+            <h2 class="experience-sub-title">Tools</h2>
             <div class="article-container">
               <article>
                 <img
@@ -252,7 +288,7 @@
                 </div>
               </article>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <img
@@ -375,7 +411,6 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
